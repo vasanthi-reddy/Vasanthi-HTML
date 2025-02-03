@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Form</title>
+  <style>
+    div {
+      margin: 10px;
+      font-weight: Bold;
+    }
+  </style>
+  
+</head>
+<body>
+  <h1>General Information</h1>
+  <form action="process.php" method="POST">
+    <div>
+      <label>First Name</label>
+      <input type="text" name="firstName" placeholder="Enter your name">
+    </div>
+    
+    <div>
+      <label>Last Name</label>
+      <input type="text" name="lastName" placeholder="Enter your name">
+    </div>
+
+    <div>
+      <label>Email</label>
+      <input type="email" name="email" placeholder="example@gmail.com"> <!--placeholder attribute is used in input fields to provide a hint -->
+    </div>
+
+    <div>
+      <label>Phone number</label>
+      <input type="number" name="phoneNumber">
+    </div>
+
+    <div>
+      <label>Age</label>
+      <input type="number" name="age">
+    </div>
+
+    <div>
+      <label>Message</label>
+      <textarea name="message"></textarea>
+    </div>
+
+    <div>
+      <label>Gender</label>
+      <select name="gender">
+        <option value="male">Male</option>
+        <option value="female">Female</option>
+        <option value="other">Other</option>
+      </select>
+    </div>
+    
+
+    <div>
+      <p>Choose your favourite language</p>
+      <input type="radio" name="html">
+      <label>HTML</label>
+      <input type="radio" name="css">
+      <label>CSS</label>
+      <input type="radio" name="javascript">
+      <label>Javascript</label>
+      
+    </div>
+    <input type="submit">
+    
+    
+  </form>
+  
+</body>
+</html>

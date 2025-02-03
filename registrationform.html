@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Registration form</title>
+</head>
+<body>
+  
+  <h1>Registration form</h1>
+  <p>Please fill out this form with the required information</p>
+<form>
+  <fieldset>
+  <label for="firstName" >Enter Your First Name:</label><br>
+  <input type="text" id="firstName" ><br>
+  <label for="lasttName">Enter Your Lastt Name:</label><br>
+  <input type="text" id="LastName"><br>
+  <label for="email">Enter Your Email:</label><br>
+  <input type="email" id="email"><br>
+  
+  <label for="password">Create a New Password:</label><br>
+  <input type="password" id="password"><br> <br><hr>
+</fieldset><br>
+
+<fieldset>
+
+  <legend>Account type(required)</legend>
+  <input type="radio" id="personal">
+  <label for="personal">Personal</label><br>
+  <input type="radio" id="business">
+  <label for="business">Business</label><br>
+
+</fieldset><br>
+
+<fieldset>
+
+  <legend>Upload a profile picture:</legend>
+  <button type="button" id="file">Choose File</button>
+  <label for="file">No file chosen</label><br>
+  <label for="age">Input your age(years):</label><br>
+  <input type="numbers" id="age"><br>
+
+    <label>How did you hear about us?</label><br>
+    <select name="select one" placeholder="(select one)">
+      <option value="select one">(select one)</option>
+      <option value="freeCodeCamp News">freeCodeCamp News</option>
+      <option value="freeCodeCamp YouTube Channel">freeCodeCamp YouTube Channel</option>
+      <option value="freeCodeCamp Forum">freeCodeCamp Forum</option>
+      <option value="other">other</option>
+    </select><br>
+      <label for="label">Provide a bio:</label><br>
+      <textarea type="message" id="label" placeholder="I like coding on the beach..."></textarea><br><br><br>
+
+      <input type="checkbox" id="terms">
+      <label for="terms">I accept the <a href="https://www.freecodecamp.org/news/terms-of-service/">terms and conditions</a></label><br>
+
+      <button type="submit">Submit</button>
+      
+
+
+</fieldset>
+      
+   
+
+
+
+
+
+
+
+  
+   
+</form>
+  
+</body>
+</html>

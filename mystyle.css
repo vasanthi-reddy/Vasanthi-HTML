@@ -1,0 +1,79 @@
+* {
+  margin: auto;
+
+}
+.vasu {
+  position: static;
+  width: 1500px;
+  height: 1700px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(254, 244, 230);
+
+}
+
+.vasu1 {
+  margin:auto;
+  top: 100px;
+  left: 100px;
+  align-items: center;
+  width: 600px;
+  background-color: white;
+  border-radius: 30px;
+  padding: 40px;
+}
+img {
+  width: 600px;
+  border-radius: 10px;
+  
+}
+.vasu3 {
+  background-color: rgb(252, 233, 234);
+  border-radius: 10px;
+  padding: 20px;
+  
+}
+.vasu4 {
+  color: rgb(133, 17, 84);
+  padding: 5px;
+  margin: 10px;
+  
+}
+h2 {
+  color:rgb(143, 13, 13);
+
+}
+
+li::marker {
+  color: rgb(143, 13, 13);
+
+}
+ol > li::marker {
+  font-weight: bold;
+
+}
+li {
+  padding-left: 20px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  
+}
+td {
+  padding: 10px;
+}
+tr {
+  border-bottom: 1px solid rgb(168, 165, 165);
+}
+.vasu7 {
+  border-bottom: none;
+}
+.vasu6, .vasu8 {
+  list-style-position: outside;
+}
+
+
+
