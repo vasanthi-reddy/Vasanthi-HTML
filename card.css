@@ -1,13 +1,19 @@
 * {
   margin: auto;
+  background-color: hsl(47, 88%, 63%);
+  
 }
+
+
 .outer {
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  transform: translate(-50%, -50%);
   width: 1400px;
   height: 1000px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background-color: hsl(47, 88%, 63%);
+ 
+  
 }
 .inner {
   margin:auto;
@@ -37,20 +43,26 @@
 h1 {
   font-size: 22px;
   line-height: 45px;
+  background-color: white;
 }
 .date {
   line-height: 45px;
+  background-color: white;
 }
 .man {
   margin-bottom: 22px;
+  background-color: white;
 }
 
 .greg {
   position: absolute;
-  text-align: center;
-  top: 44rem;
-  right: 44rem;
-  
+  top: 30rem;
+  left: 40rem;
+  background-color: white;
   
    
+}
+
+.image1 {
+  background-color: white;
 }
