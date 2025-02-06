@@ -1,0 +1,55 @@
+.main {
+  
+  background-color: rgb(159, 206, 206);
+
+
+
+}
+.numbers {
+  position: relative;
+  display: inline;
+  width: 20%;
+  
+  border:  solid hsl(263, 55%, 52%);
+  background-color:  hsl(263, 55%, 52%);
+  border-radius: 8px;
+  
+}
+.image1 {
+  border-radius: 50px;
+  
+}
+.one {
+  display: flex;
+  flex-direction: row;
+
+
+}
+
+.three {
+  font-size: 20px;
+}
+
+.apple {
+  border: solid hsl(217, 19%, 35%);
+  border-radius: 8px;
+  background-color: hsl(217, 19%, 35%);
+}
+
+.ball {
+  border: solid white;
+  border-radius: 8px;
+  background-color: white;
+}
+
+.abram {
+  border: solid hsl(219, 29%, 14%);
+  border-radius: 8px;
+  background-color: hsl(219, 29%, 14%);
+}
+
+.kira {
+  border: solid white;
+  border-radius: 8px;
+  background-color: white;
+}
