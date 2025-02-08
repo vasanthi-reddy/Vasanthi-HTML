@@ -1,0 +1,362 @@
+
+.main {
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  background-color: aquamarine;
+  
+  
+
+}
+
+
+.left {
+
+  display: flex;
+  flex-direction: column;
+  width: 100vw;
+  height: 100vh;
+  margin-left: 10rem;  
+
+}
+
+.create {
+  padding: 20px;
+  width: 20%;
+  height: 38%;
+  border: solid bisque;
+  border-radius: 10px;
+  background-color: bisque;
+  padding: 30px;
+  margin-top: 25px;
+  margin-bottom: 25px;
+  
+  
+
+}
+.heading {
+  line-height: 35px;
+  font-size: 40px;
+  
+}
+span {
+  color: rgb(81, 8, 176);
+}
+#one {
+  position: relative;
+  right: -10px;
+}
+.post {
+  
+
+  width: 12rem;
+  align-items: center;
+  border: solid hsl(67, 85%, 46%);
+  background-color: hsl(67, 85%, 46%);
+  border-radius: 50px;
+  padding: 13px;
+  color: rgb(81, 8, 176);
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.write {
+  padding: 20px;
+  border: solid hsl(67, 85%, 46%);
+  background-color: hsla(67, 88%, 45%, 0.923);
+  border-radius: 10px;
+  width: 21.4%;
+  height: 40%;
+ 
+
+}
+.AI {
+  font-size: 34px;
+  line-height: 30px;
+}
+.tips {
+  border: solid white;
+  background-color: white;
+  border-radius: 12px;
+  width: 95%;
+  height: 65%;
+  
+}
+.baby {
+  width: 46px;
+  border-radius: 50px;
+  position: relative;
+  left: 10.5rem;
+  top: 35px;
+}
+#star {
+  position: relative;
+  top: 6.4rem;
+  right: 45px;
+  color:blueviolet;
+  background-color: rgb(215, 181, 247);
+  border: solid rgb(215, 181, 247);
+  border-radius: 50px;
+  padding: 5px;
+
+}
+#arrow {
+  position: relative;
+  top: 5.2rem;
+  left: 5.5rem;
+  font-weight: 60px;
+  color: blueviolet;
+  height: 20px;
+  padding: 15px;
+  border: solid rgb(134, 215, 11);
+  background-color: rgb(134, 215, 11);
+  border-radius: 50%;
+  outline: 20px solid rgb(249, 240, 240);
+}
+.give {
+  padding: 10px;
+  border: solid rgb(251, 196, 204);
+  background-color: rgb(251, 196, 204);
+  border-radius: 25px;
+  margin: 20px;
+  width: 55%;
+  margin-top: -55px;
+  margin-left: 25px;
+
+}
+.certain {
+  padding: 10px;
+  border: solid rgb(249, 212, 167);
+  background-color: rgb(249, 212, 167);
+  border-radius: 17px;
+  margin-top: -10px;
+  margin-left: 3rem; 
+  width: 60%;
+}
+.block {
+  position: relative;
+  top: -4.5rem;
+  right: 47rem;
+  height: 80vh;
+  
+  
+  
+}
+.social {
+  position: relative;
+
+  padding: 20px;
+  width: 100%;
+  height: 30%;
+  border: solid rgb(137, 68, 221);
+  border-radius: 10px;
+  background-color: rgb(137, 68, 221);
+  color: white;
+  margin-bottom: 25px;
+  
+  
+  
+}
+h1 {
+  position: relative;
+  bottom:2rem;
+  text-align: center;
+  font-size: 70px;
+  line-height: 58px;
+}
+.over {
+  position: absolute;
+  right: 13rem;
+  top: 12rem;
+}
+#reviews {
+  color: hsl(67, 87%, 50%);
+  
+}
+.box1 {
+  position:relative;
+  left: -1.6rem;
+  display: flex;
+  width: 120%;
+  height: 100%;
+  margin: 30px;
+
+}
+.manage {
+  padding: 20px;
+  border: solid white;
+  border-radius: 10px;
+  background-color: white;
+  width: 40%;
+  height: 30%;
+  margin-right:25px;
+ 
+}
+
+.accounts {
+  position: relative;
+  bottom: 1rem;
+  font-size: 38px;
+  line-height: 38px;
+}
+
+.your {
+  
+  border: solid rgb(245, 240, 240);
+  border-radius: 30%;
+  width: 80%;
+  height: 7vh;
+  background-color: white;
+
+}
+.followers {
+  position: relative;
+  left: 3rem;
+  top:-1rem;
+  opacity: 0.5;
+}
+#app {
+  width: 20%;
+  height: 1vh;
+  position: relative;
+  left: -1rem;
+  top: 1rem;
+  padding: 10px;
+  border: solid hsl(67, 87%, 50%);
+  border-radius: 50%;
+  background-color: hsl(67, 87%, 50%);
+
+}
+.maintain {
+  
+  padding: 20px;
+  border: solid rgb(248, 185, 109);
+  border-radius: 10px;
+  background-color: rgb(248, 185, 109);
+  width: 35%;
+  height: 30%;
+  
+  
+}
+.posting {
+  position: relative;
+  bottom: 40px;
+  font-size: 38px;
+  line-height: 32px;
+}
+.calender {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  bottom: 4rem;
+  height: 40%;
+  
+  background-color: white;
+  border-radius: 10px;
+  
+}
+.month {
+  border: solid rgb(137, 68, 221);
+  background-color: rgb(137, 68, 221);
+  border-radius: 10px;
+  padding: 3px;
+  color: white;
+}
+.tick {
+  border: solid white;
+  background-color: white;
+  
+  
+
+}
+#check {
+  
+  color: white;
+  border: solid rgb(137, 68, 221);
+  background-color: rgb(137, 68, 221);
+  border-radius: 50%;
+  
+}
+.percent {
+  position: relative;
+  top: -32rem;
+  right: -0.4rem;
+  padding: 20px;
+  border: solid white;
+  background-color: white;
+  border-radius: 7px;
+  width: 48%;
+  height: 30%;
+  
+
+}
+.avatar {
+  position: relative;
+  left: 4rem;
+  width: 150px;
+  top: -3.5rem;
+  padding: 10px;
+  
+}
+p {
+  position: relative;
+  bottom: 3rem;
+  font-size: 22px;
+  left: 2rem;
+}
+
+.grow {
+  padding: 20px;
+  position: relative;
+  bottom: 49.8rem;
+  left: 25.7rem;
+  border: solid rgb(137, 68, 221);
+  background-color: rgb(137, 68, 221);
+  border-radius: 7px;
+  width: 81%;
+  height: 30%;
+  
+}
+.graph {
+  width: 40%;
+  padding: 10px;
+}
+.non {
+  margin-top: -12rem;
+  margin-left: 15rem;
+  color: white;
+  font-size: 40px;
+  line-height: 39px;
+}
+.schedule {
+  padding: 20px;
+  position: relative;
+  bottom: 106.5rem;
+  left: 47.8rem;
+  border: solid rgb(208, 207, 244);
+  background-color: rgb(208, 207, 244);
+  border-radius: 7px;
+  width: 30%;
+  height: 69%;
+  padding: 20px;
+}
+
+.best {
+  width: 23vh;
+  height: 26vh;
+  padding-left:10px;
+}
+.two {
+  font-size: 30px;
+  line-height: 33px;
+}
+.time {
+  position: relative;
+  top: 3rem;
+  line-height: 25px;
+  font-size: 22px;
+}
+
+
+
+
